@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: 'icomoon';
+  src:url("/fonts/icons-auditii.eot");
+  src:url("/fonts/icons-auditii.eot") format("embedded-opentype"),
+    url("/fonts/icons-auditii.woff") format("woff"),
+    url("/fonts/icons-auditii.ttf") format("truetype"),
+    url("/fonts/icons-auditii.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[class^="icons-auditii-"],
+[class*=" icons-auditii-"] {
+  font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	min-width: 1em;
+	display: inline-block;
+	text-align: center;
+	font-size: 18px;
+	vertical-align: middle;
+	position: relative;
+  top: -1px;
+  margin-top: 1px !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icons-auditii-help:before {
+  content: "\61";
+}
+.icons-auditii-password:before {
+  content: "\62";
+}
+.icons-auditii-watch:before {
+  content: "\63";
+}
+.icons-auditii-action:before {
+  content: "\64";
+}
+.icons-auditii-user:before {
+  content: "\65";
+}
+.icons-auditii-users:before {
+  content: "\6b";
+}
+.icons-auditii-plan:before {
+  content: "\6c";
+}
+.icons-auditii-store:before {
+  content: "\6d";
+}
+.icons-auditii-event:before {
+  content: "\6e";
+}
+.icons-auditii-audit:before {
+  content: "\6f";
+}
+.icons-auditii-checklist:before {
+  content: "\70";
+}
+.icons-auditii-company:before {
+  content: "\71";
+}
+.icons-auditii-tip:before {
+  content: "\72";
+}
+.icons-auditii-dashboard:before {
+  content: "\67";
+}

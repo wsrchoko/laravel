@@ -1,0 +1,120 @@
+::-webkit-scrollbar {
+    width: 3px;
+    height: 0px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #ccc;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #ED283B;
+}
+
+::-webkit-scrollbar-button {
+    background-color: #ccc;
+    display: none;
+}
+
+::-webkit-scrollbar-corner {
+    background-color: #ccc;
+    
+}
+
+body {
+    scrollbar-face-color: #ED283B;
+}
+
+.login-cover {
+    background-size: cover;
+    background: url(/images/login.png) no-repeat center center fixed;
+}
+
+.navbar {
+    padding-right: 0px;
+}
+
+.navbar-nav {
+    margin-left: 0px;
+}
+
+.navbar-nav>li {
+    border-left: 1px solid #ca2824;
+}
+
+.navbar-nav>li:last-child {
+    border-right: 1px solid #ca2824;
+}
+
+.navbar-nav>li>a {
+    font-size: 14px;
+}
+
+/* .modal-header .close {
+    font-size: 44px;
+    top: 4px;
+} */
+
+.page-header-xs .page-title {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.form-control {
+    border: 1px solid #e6e6e6;
+    /* background-color: #eef3f5; */
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.btn-flat {
+    border-width: 1px;
+}
+
+/* .navigation li {
+    border-bottom: 1px solid lightgrey;
+}
+
+.navigation {
+    padding-top: 0px;
+} */
+
+.sidebar-xs .sidebar-main .navigation>li>a>i {
+    font-size: 26px;
+}
+
+.sidebar-main .navigation>li>a span {
+    font-size: 14px;
+    color: rgba(0,0,0,0.6);
+}
+
+.panel-heading {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.sidebar-main {
+    width: 220px;
+}
+
+.sidebar-fixed.sidebar-default .sidebar-content {
+    width: 220px;
+}
+
+table>thead>tr>td {
+    font-size: 12px !important;
+    text-transform: uppercase !important;
+}
+
+table>thead>tr>th {
+    font-size: 12px !important;
+    text-transform: uppercase !important;
+}
+
+input[disabled], input[readonly] {
+    color: #000;
+}
+
+.text-transparent {
+    color: transparent;
+}

@@ -1,0 +1,28 @@
+version: '2'
+services:
+  web:
+    image: hitalos/laravel:latest
+    container_name: laravel-server
+    command: bash -c "composer install && php ./artisan serve --port=80 --host=0.0.0.0"
+    ports:
+      - 8000:80
+    volumes:
+      - ./:/var/www
+    links:
+      - db
+    environment:
+      DB_HOST: db
+      DB_PORT: 5432
+      DB_DATABASE: laravel
+      DB_USERNAME: laravel
+      DB_PASSWORD: laravel
+      DB_CONNECTION: pgsql
+  db:
+    image: postgres:9.4-alpine
+    container_name: laravel-db
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_DB: laravel
+      POSTGRES_USER: laravel
+      POSTGRES_PASSWORD: laravel
